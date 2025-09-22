@@ -1,0 +1,81 @@
+body {
+    overflow-x: hidden;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+    display: flex;  
+    /* background: linear-gradient(135deg,rgb(73, 69, 69),rgb(204, 192, 192)) ;   */
+    background-image: url('bg-image/360_F_127102793_T3xjCOEUKV5vy3WgNMxpDRnEMSFFHh5b.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+table {
+    padding: 30px;
+    border-radius: 20px;
+    background-color: black;
+    width: 500px;
+    box-shadow: #0066ff 0 0 3px;
+
+}
+table td{
+    padding: 3px;
+}
+
+.input {
+    width: 400px;
+    height: 80px;
+    border:#0066ff 2px solid;
+    background-color: transparent;
+    border-radius: 10px;
+    text-align: end;
+    color:white;
+    position: relative;
+    bottom: 10px;
+    font-size: 35px;
+    margin-bottom: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 0px 5px #0066ff;
+}
+
+
+.btn {
+    width: 70px;
+    height: 70px;
+    font-size: 25px;
+    color:white;
+    box-shadow: 0px 0px 10px rgb(73, 69, 69);
+    background-color:black;
+    border-radius: 50%;
+     transition: 0.5s;    
+}
+.btn:hover{
+    color: aqua;
+}
+
+.cl {
+    width: 70px;
+    height: 70px;
+    background-color:black;
+    color:#0066ff;
+    font-size: 30px;
+     box-shadow: 0px 0px 3px #0066ff;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#eql {
+    width: 70px;
+    height: 70px;
+    background:linear-gradient(135deg,blue,#0066ff);
+    color: black;
+    font-size: 30px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+
+#eql:hover{
+    background:linear-gradient(135deg,#0066ff,blue); 
+}
